@@ -1,0 +1,8 @@
+C:\Users\JakubMicuda\Desktop\skola\C#\PV178.Homeworks.HW05\PV178.Homeworks.HW05\bin\Debug\PV178.Homeworks.HW05.exe.config
+C:\Users\JakubMicuda\Desktop\skola\C#\PV178.Homeworks.HW05\PV178.Homeworks.HW05\bin\Debug\PV178.Homeworks.HW05.exe
+C:\Users\JakubMicuda\Desktop\skola\C#\PV178.Homeworks.HW05\PV178.Homeworks.HW05\bin\Debug\PV178.Homeworks.HW05.pdb
+C:\Users\JakubMicuda\Desktop\skola\C#\PV178.Homeworks.HW05\PV178.Homeworks.HW05\obj\Debug\PV178.Homeworks.HW05.csprojResolveAssemblyReference.cache
+C:\Users\JakubMicuda\Desktop\skola\C#\PV178.Homeworks.HW05\PV178.Homeworks.HW05\obj\Debug\PV178.Homeworks.HW05.exe
+C:\Users\JakubMicuda\Desktop\skola\C#\PV178.Homeworks.HW05\PV178.Homeworks.HW05\obj\Debug\PV178.Homeworks.HW05.pdb
+C:\Users\JakubMicuda\Desktop\skola\C#\PV178.Homeworks.HW05\PV178.Homeworks.HW05\bin\Debug\Newtonsoft.Json.dll
+C:\Users\JakubMicuda\Desktop\skola\C#\PV178.Homeworks.HW05\PV178.Homeworks.HW05\bin\Debug\Newtonsoft.Json.xml

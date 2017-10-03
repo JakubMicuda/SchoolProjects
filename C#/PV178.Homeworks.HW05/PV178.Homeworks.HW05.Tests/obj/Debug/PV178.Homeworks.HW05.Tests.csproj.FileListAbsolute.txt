@@ -1,0 +1,10 @@
+C:\Users\JakubMicuda\Desktop\skola\C#\PV178.Homeworks.HW05\PV178.Homeworks.HW05.Tests\bin\Debug\PV178.Homeworks.HW05.Tests.dll
+C:\Users\JakubMicuda\Desktop\skola\C#\PV178.Homeworks.HW05\PV178.Homeworks.HW05.Tests\bin\Debug\PV178.Homeworks.HW05.Tests.pdb
+C:\Users\JakubMicuda\Desktop\skola\C#\PV178.Homeworks.HW05\PV178.Homeworks.HW05.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\JakubMicuda\Desktop\skola\C#\PV178.Homeworks.HW05\PV178.Homeworks.HW05.Tests\bin\Debug\PV178.Homeworks.HW05.exe
+C:\Users\JakubMicuda\Desktop\skola\C#\PV178.Homeworks.HW05\PV178.Homeworks.HW05.Tests\bin\Debug\PV178.Homeworks.HW05.pdb
+C:\Users\JakubMicuda\Desktop\skola\C#\PV178.Homeworks.HW05\PV178.Homeworks.HW05.Tests\obj\Debug\PV178.Homeworks.HW05.Tests.csprojResolveAssemblyReference.cache
+C:\Users\JakubMicuda\Desktop\skola\C#\PV178.Homeworks.HW05\PV178.Homeworks.HW05.Tests\obj\Debug\PV178.Homeworks.HW05.Tests.dll
+C:\Users\JakubMicuda\Desktop\skola\C#\PV178.Homeworks.HW05\PV178.Homeworks.HW05.Tests\obj\Debug\PV178.Homeworks.HW05.Tests.pdb
+C:\Users\JakubMicuda\Desktop\skola\C#\PV178.Homeworks.HW05\PV178.Homeworks.HW05.Tests\bin\Debug\Newtonsoft.Json.dll
+C:\Users\JakubMicuda\Desktop\skola\C#\PV178.Homeworks.HW05\PV178.Homeworks.HW05.Tests\bin\Debug\Newtonsoft.Json.xml
