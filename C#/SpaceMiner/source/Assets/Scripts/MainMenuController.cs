@@ -5,7 +5,6 @@ using System;
 //using UnityEngine.SceneManagement;
 
 public class MainMenuController : MonoBehaviourGM {
-    public GameObject customizationWindow;
     public GameObject mainWindow;
     public Text highScore;
 
@@ -16,14 +15,12 @@ public class MainMenuController : MonoBehaviourGM {
 
     public void BackToMenu()
     {
-        this.customizationWindow.SetActive(false);
         this.mainWindow.SetActive(true);
     }
 
     public void Customize()
     {
         this.mainWindow.SetActive(false);
-        this.customizationWindow.SetActive(true);
     }
     
 	public void NewGame()

@@ -3,7 +3,7 @@ using UnityEngine.UI;
 
 public class SunCollision : MonoBehaviour {
 
-    public GameManagerScript gms;
+    public GameManager gms;
     public Image pauseShader;
 	// Use this for initialization
 	void OnTriggerEnter(Collider coll)

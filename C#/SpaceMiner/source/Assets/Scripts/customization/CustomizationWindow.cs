@@ -2,7 +2,7 @@
 using System.Collections;
 using UnityEngine.UI;
 
-public class CustomizationWindow : MonoBehaviourGM {
+/*public class CustomizationWindow : MonoBehaviourGM {
 
     public Text remainingPoints;
     public StatItem[] items;
@@ -26,4 +26,4 @@ public class CustomizationWindow : MonoBehaviourGM {
         }
     }
 
-}
+}*/

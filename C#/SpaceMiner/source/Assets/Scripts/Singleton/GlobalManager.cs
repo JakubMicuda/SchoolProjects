@@ -3,7 +3,7 @@ using System.Collections;
 
 public class GlobalManager : MonoSingleton<GlobalManager> {
 
-    public PlayerStats playerStats = new PlayerStats();
+    //public PlayerStats playerStats = new PlayerStats();
     public SystemGenerator generator;
     public string currentPlanet = null;
     public Vector3 enterCoordinates = Vector3.zero;
@@ -17,7 +17,7 @@ public class GlobalManager : MonoSingleton<GlobalManager> {
 
     public void Init()
     {
-        this.playerStats.Init();
+        //this.playerStats.Init();
     }
 
     public void AddGenerator(SystemGenerator gen)

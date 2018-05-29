@@ -7,12 +7,12 @@ public class UIElements : MonoBehaviourGM {
 
     public Text timer;
     public Text score;
-    private GameManagerScript gms;
+    private GameManager gms;
     public DateTime endTime;
 
 	// Use this for initialization
 	void Start () {
-        this.gms = this.gameObject.GetComponent<GameManagerScript>();
+        this.gms = this.gameObject.GetComponent<GameManager>();
         StartCoroutine(TimeSet());
         this.score.text = this.gm.Score.ToString();
 	}

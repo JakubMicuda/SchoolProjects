@@ -2,7 +2,7 @@
 using System.Collections;
 using UnityEngine.UI;
 
-public class StatItem : MonoBehaviourGM {
+/*public class StatItem : MonoBehaviourGM {
 
     public PlayerStatsType statType;
     public Button plusButton;
@@ -71,4 +71,4 @@ public class StatItem : MonoBehaviourGM {
         UpdateValue();
     }
      
-}
+}*/

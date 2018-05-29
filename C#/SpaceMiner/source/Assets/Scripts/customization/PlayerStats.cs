@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public enum PlayerStatsType
+/*public enum PlayerStatsType
 {
     strength,
     deffense,
@@ -138,4 +138,4 @@ public class PlayerStats
         }
         return 0;
     }
-}
+}*/

@@ -4,44 +4,184 @@ Direct3D:
     Version:  Direct3D 11.0 [level 11.0]
     Renderer: NVIDIA GeForce GTX 1060 6GB (ID=0x1c03)
     Vendor:   NVIDIA
-    VRAM:     6100 MB
+    VRAM:     6052 MB
 Begin MonoManager ReloadAssembly
-Platform assembly: C:\Users\JakubMicuda\Desktop\SpaceMiner\bin\SpaceMiner_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading C:\Users\JakubMicuda\Desktop\SpaceMiner\bin\SpaceMiner_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: C:\Users\JakubMicuda\Desktop\SpaceMiner\bin\SpaceMiner_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
-Loading C:\Users\JakubMicuda\Desktop\SpaceMiner\bin\SpaceMiner_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
-Platform assembly: C:\Users\JakubMicuda\Desktop\SpaceMiner\bin\SpaceMiner_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading C:\Users\JakubMicuda\Desktop\SpaceMiner\bin\SpaceMiner_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: C:\Users\JakubMicuda\Desktop\SpaceMiner\bin\SpaceMiner_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
-Loading C:\Users\JakubMicuda\Desktop\SpaceMiner\bin\SpaceMiner_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
-Platform assembly: C:\Users\JakubMicuda\Desktop\SpaceMiner\bin\SpaceMiner_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading C:\Users\JakubMicuda\Desktop\SpaceMiner\bin\SpaceMiner_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-Platform assembly: C:\Users\JakubMicuda\Desktop\SpaceMiner\bin\SpaceMiner_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
-Loading C:\Users\JakubMicuda\Desktop\SpaceMiner\bin\SpaceMiner_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-- Completed reload, in  0.042 seconds
-Platform assembly: C:\Users\JakubMicuda\Desktop\SpaceMiner\bin\SpaceMiner_Data\Managed\System.Core.dll (this message is harmless)
-Platform assembly: C:\Users\JakubMicuda\Desktop\SpaceMiner\bin\SpaceMiner_Data\Managed\System.dll (this message is harmless)
-Platform assembly: C:\Users\JakubMicuda\Desktop\SpaceMiner\bin\SpaceMiner_Data\Managed\Boo.Lang.dll (this message is harmless)
-desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+Platform assembly: D:\MyProjects\C#\SpaceMiner\bin\SpaceMiner_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading D:\MyProjects\C#\SpaceMiner\bin\SpaceMiner_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: D:\MyProjects\C#\SpaceMiner\bin\SpaceMiner_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading D:\MyProjects\C#\SpaceMiner\bin\SpaceMiner_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: D:\MyProjects\C#\SpaceMiner\bin\SpaceMiner_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading D:\MyProjects\C#\SpaceMiner\bin\SpaceMiner_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: D:\MyProjects\C#\SpaceMiner\bin\SpaceMiner_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading D:\MyProjects\C#\SpaceMiner\bin\SpaceMiner_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+Platform assembly: D:\MyProjects\C#\SpaceMiner\bin\SpaceMiner_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading D:\MyProjects\C#\SpaceMiner\bin\SpaceMiner_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: D:\MyProjects\C#\SpaceMiner\bin\SpaceMiner_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading D:\MyProjects\C#\SpaceMiner\bin\SpaceMiner_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+- Completed reload, in  0.047 seconds
+Platform assembly: D:\MyProjects\C#\SpaceMiner\bin\SpaceMiner_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: D:\MyProjects\C#\SpaceMiner\bin\SpaceMiner_Data\Managed\System.dll (this message is harmless)
+Platform assembly: D:\MyProjects\C#\SpaceMiner\bin\SpaceMiner_Data\Managed\Boo.Lang.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 3840x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 0.667940 ms
+UnloadTime: 0.902795 ms
 Setting up 1 worker threads for Enlighten.
-  Thread -> id: 2a88 -> priority: 1 
+  Thread -> id: 62a0 -> priority: 1 
 Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 4.257599 ms
+UnloadTime: 4.569106 ms
 
 Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 637.
-Total: 0.297911 ms (FindLiveObjects: 0.068719 ms CreateObjectMapping: 0.017746 ms MarkObjects: 0.173309 ms  DeleteObjects: 0.037758 ms)
+Total: 0.280920 ms (FindLiveObjects: 0.041156 ms CreateObjectMapping: 0.018123 ms MarkObjects: 0.180861 ms  DeleteObjects: 0.040401 ms)
+
+Game started!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.144070 ms
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 620.
+Total: 12.784134 ms (FindLiveObjects: 0.048330 ms CreateObjectMapping: 0.014348 ms MarkObjects: 0.261663 ms  DeleteObjects: 12.459037 ms)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.854088 ms
+
+Unloading 83 unused Assets to reduce memory usage. Loaded Objects now: 706.
+Total: 0.629049 ms (FindLiveObjects: 0.039268 ms CreateObjectMapping: 0.015480 ms MarkObjects: 0.548247 ms  DeleteObjects: 0.025675 ms)
+
+Game started!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.627539 ms
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 623.
+Total: 12.521338 ms (FindLiveObjects: 0.046064 ms CreateObjectMapping: 0.016235 ms MarkObjects: 0.386642 ms  DeleteObjects: 12.071261 ms)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.486324 ms
+
+Unloading 83 unused Assets to reduce memory usage. Loaded Objects now: 708.
+Total: 0.377958 ms (FindLiveObjects: 0.035115 ms CreateObjectMapping: 0.013592 ms MarkObjects: 0.309993 ms  DeleteObjects: 0.018879 ms)
+
+Game started!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.597332 ms
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 623.
+Total: 11.866235 ms (FindLiveObjects: 0.079291 ms CreateObjectMapping: 0.013592 ms MarkObjects: 0.324341 ms  DeleteObjects: 11.447875 ms)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.470088 ms
+
+Unloading 83 unused Assets to reduce memory usage. Loaded Objects now: 706.
+Total: 0.533899 ms (FindLiveObjects: 0.040778 ms CreateObjectMapping: 0.014725 ms MarkObjects: 0.455740 ms  DeleteObjects: 0.021899 ms)
+
+Game started!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+entered se Spaceship
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+entered nw Spaceship
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.540695 ms
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 623.
+Total: 12.102223 ms (FindLiveObjects: 0.040401 ms CreateObjectMapping: 0.027940 ms MarkObjects: 0.370406 ms  DeleteObjects: 11.663096 ms)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.403633 ms
+
+Unloading 83 unused Assets to reduce memory usage. Loaded Objects now: 706.
+Total: 0.470465 ms (FindLiveObjects: 0.025675 ms CreateObjectMapping: 0.042289 ms MarkObjects: 0.380601 ms  DeleteObjects: 0.021899 ms)
+
+Game started!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.649816 ms
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 623.
+Total: 19.633074 ms (FindLiveObjects: 0.056259 ms CreateObjectMapping: 0.039268 ms MarkObjects: 0.340200 ms  DeleteObjects: 19.196968 ms)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.528613 ms
+
+Unloading 83 unused Assets to reduce memory usage. Loaded Objects now: 706.
+Total: 0.404011 ms (FindLiveObjects: 0.027563 ms CreateObjectMapping: 0.014348 ms MarkObjects: 0.339445 ms  DeleteObjects: 0.022277 ms)
+
+Game started!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.564861 ms
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 623.
+Total: 18.380638 ms (FindLiveObjects: 0.037380 ms CreateObjectMapping: 0.014348 ms MarkObjects: 0.350017 ms  DeleteObjects: 17.978138 ms)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.434218 ms
+
+Unloading 83 unused Assets to reduce memory usage. Loaded Objects now: 711.
+Total: 0.454607 ms (FindLiveObjects: 0.056259 ms CreateObjectMapping: 0.015103 ms MarkObjects: 0.360589 ms  DeleteObjects: 0.022277 ms)
+
+Game started!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+entered ne Spaceship
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.539563 ms
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 623.
+Total: 12.505857 ms (FindLiveObjects: 0.070607 ms CreateObjectMapping: 0.027940 ms MarkObjects: 0.353038 ms  DeleteObjects: 12.052760 ms)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.475751 ms
+
+Unloading 83 unused Assets to reduce memory usage. Loaded Objects now: 706.
+Total: 0.513510 ms (FindLiveObjects: 0.046064 ms CreateObjectMapping: 0.041533 ms MarkObjects: 0.403633 ms  DeleteObjects: 0.021899 ms)
+
+Game started!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.618855 ms
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 623.
+Total: 11.916075 ms (FindLiveObjects: 0.076648 ms CreateObjectMapping: 0.016235 ms MarkObjects: 0.363987 ms  DeleteObjects: 11.458070 ms)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.432707 ms
+
+Unloading 83 unused Assets to reduce memory usage. Loaded Objects now: 711.
+Total: 0.818595 ms (FindLiveObjects: 0.040778 ms CreateObjectMapping: 0.029073 ms MarkObjects: 0.725710 ms  DeleteObjects: 0.022654 ms)
 
 Game started!
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
 
 Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 1.172010 ms
+UnloadTime: 0.905816 ms
 
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 617.
-Total: 10.186371 ms (FindLiveObjects: 0.040778 ms CreateObjectMapping: 0.012460 ms MarkObjects: 0.188035 ms  DeleteObjects: 9.943963 ms)
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 629.
+Total: 13.658989 ms (FindLiveObjects: 0.078914 ms CreateObjectMapping: 0.014725 ms MarkObjects: 0.362100 ms  DeleteObjects: 13.202493 ms)
 

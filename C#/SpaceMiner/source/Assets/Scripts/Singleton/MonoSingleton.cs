@@ -16,9 +16,6 @@ public class MonoSingleton<T> : IMonoSingleton where T : IMonoSingleton
     protected static T _instance;
     private bool isSetDontDestroy = false;
 
-    /// <summary>
-    /// Vrati false ak uz tento singleton bol instancovany, ak nie vrati true. Slouzi treba do metod ajko disable nebo ondestroy na test.
-    /// </summary>
     public static bool IsNull
     {
         get
@@ -29,9 +26,6 @@ public class MonoSingleton<T> : IMonoSingleton where T : IMonoSingleton
         }
     }
 
-    /// <summary>
-    /// Vrati refernciu na Singleton. Ak singleton este nebol instanced tak sa vytvori instancia. A zaroven sa zavola OnLoaded().
-    /// </summary>
     public static T Instance
     {
         get
@@ -40,15 +34,10 @@ public class MonoSingleton<T> : IMonoSingleton where T : IMonoSingleton
         }
     }
 
-    /// <summary>
-    /// Vrati refernciu na Singleton. Ak singleton este nebol instanced tak sa vytvori instancia. A zaroven sa zavola OnLoaded().
-    /// </summary>
     public static T GetInstance()
     {
-        // test jestli je aplikace ukoncovana
         if (MonoBehaviourBase.isQuitingS)
         {
-            // jestli je TRUE, tak nekde nesprávnì voláš singelton (OnDisable nebo OnDestroy)
             Debug.LogWarning("Application Is Quitting !!! " + MonoBehaviourBase.isQuitingS);
             return null;
         }
@@ -65,8 +54,7 @@ public class MonoSingleton<T> : IMonoSingleton where T : IMonoSingleton
                 _instance = _obj.AddComponent<T>();
 
                 _instance.OnLoaded();
-
-                //CDebug.Log(_objName + " initialized!");
+                
             }
         }
 
@@ -77,16 +65,11 @@ public class MonoSingleton<T> : IMonoSingleton where T : IMonoSingleton
     {
 
     }
-
-    /// <summary>
-    /// Klasicky Awake z Monobehaviouru. Pri dedeni, je nutne volat base.Awake();
-    /// </summary>
+    
     protected virtual void Awake()
     {
-        // Nastavim aby se nenicil pro zniceni sceny
         DontDestroyOnLoad(this.gameObject);
-
-        // ulozim si info ze se provedlo nastaveni dontdestory, pro kontrolu
+        
         this.isSetDontDestroy = true;
 
         if (_instance == null)
@@ -104,17 +87,12 @@ public class MonoSingleton<T> : IMonoSingleton where T : IMonoSingleton
 
         _instance = null;
     }
-
-    /// <summary>
-    /// Pri destroy je treba zmazat staticku referenciu ak pointuje na tento objekt.
-    /// Milan rikal ze u persistentu je to na hovno
-    /// </summary>
+   
     protected override void OnDestroy()
     {
-        // Test zda-li se vola spravne awake v potomcich
         if (!this.isSetDontDestroy)
         {
-            Debug.LogError("Singleton neprezil scenu, nejspis se nekde u potomka v awake nevola base.Awake() !!");
+            Debug.LogError("Singleton neprezil scenu, asi sa niekde u potomka v awake nevola base.Awake() !!");
         }
 
         base.OnDestroy();
@@ -124,10 +102,7 @@ public class MonoSingleton<T> : IMonoSingleton where T : IMonoSingleton
             _instance = null;
         }
     }
-
-    /// <summary>
-    /// Funkcia na uistenie sa, ze singleton bol instanced.
-    /// </summary>
+    
     public static bool MakeSureExists()
     {
         if (MonoSingleton<T>.GetInstance() == null) { return false; }
