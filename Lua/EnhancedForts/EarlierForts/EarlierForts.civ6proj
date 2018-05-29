@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>Earlier Forts</Name>
+    <Guid>62c98691-db6e-41b4-b398-0b14f905a6f0</Guid>
+    <ProjectGuid>34656753-8c03-450b-bac1-25581aee32d7</ProjectGuid>
+    <ModVersion>1</ModVersion>
+    <Teaser>This mod changes technology needed for building forts and military engineers.</Teaser>
+    <Description>This mod changes technology needed for building forts and military engineers.</Description>
+    <Authors>Geekob</Authors>
+    <SpecialThanks>
+    </SpecialThanks>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <AssemblyName>EarlierForts</AssemblyName>
+    <RootNamespace>EarlierForts</RootNamespace>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="Gameplay"><File>EarlierForts.xml</File></UpdateDatabase></InGameActions>]]></InGameActionData>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="EarlierForts.xml">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
+</Project>

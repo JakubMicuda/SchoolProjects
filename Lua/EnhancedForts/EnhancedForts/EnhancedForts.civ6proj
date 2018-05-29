@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>Enhanced Forts</Name>
+    <Guid>1b00c46b-80e3-4754-a572-2f9e4daca5a4</Guid>
+    <ProjectGuid>053190a8-bc61-4f8a-9670-d856a8c5fe84</ProjectGuid>
+    <ModVersion>5</ModVersion>
+    <Teaser>This mod adds more usefulness to forts. Players can build them since masonry and they gain additional territory. Pillaged forts</Teaser>
+    <Description>This mod adds more usefulness to forts. They gain additional territory when built. Pillaged forts that are not directly attached to cities, lose that territory. Mod is utility only, so its compatible with any mods that dont directly change fort`s functionality.</Description>
+    <Authors>Geekob</Authors>
+    <SpecialThanks>
+    </SpecialThanks>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <AssemblyName>EnhancedForts</AssemblyName>
+    <RootNamespace>EnhancedForts</RootNamespace>
+    <InGameActionData><![CDATA[<InGameActions><AddGameplayScripts id="LuaScripts"><File>FortBorders.lua</File></AddGameplayScripts></InGameActions>]]></InGameActionData>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="FortBorders.lua">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
+</Project>

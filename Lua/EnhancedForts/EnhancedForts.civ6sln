@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# ModBuddy Solution File, Format Version 12.00
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{5DAE07AF-E217-45C1-8DE7-FF99D6011E8A}") = "EnhancedForts", "EnhancedForts\EnhancedForts.civ6proj", "{053190A8-BC61-4F8A-9670-D856A8C5FE84}"
+EndProject
+Project("{5DAE07AF-E217-45C1-8DE7-FF99D6011E8A}") = "EarlierForts", "EarlierForts\EarlierForts.civ6proj", "{34656753-8C03-450B-BAC1-25581AEE32D7}"
+EndProject
+Project("{5DAE07AF-E217-45C1-8DE7-FF99D6011E8A}") = "testBubla", "test\testBubla.civ6proj", "{98C3468A-D9A9-46F5-8623-22A7A1873AA5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Civ6 = Default|Civ6
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{053190A8-BC61-4F8A-9670-D856A8C5FE84}.Default|Civ6.ActiveCfg = Default|Civ6
+		{053190A8-BC61-4F8A-9670-D856A8C5FE84}.Default|Civ6.Build.0 = Default|Civ6
+		{34656753-8C03-450B-BAC1-25581AEE32D7}.Default|Civ6.ActiveCfg = Default|Civ6
+		{34656753-8C03-450B-BAC1-25581AEE32D7}.Default|Civ6.Build.0 = Default|Civ6
+		{98C3468A-D9A9-46F5-8623-22A7A1873AA5}.Default|Civ6.ActiveCfg = Default|Civ6
+		{98C3468A-D9A9-46F5-8623-22A7A1873AA5}.Default|Civ6.Build.0 = Default|Civ6
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

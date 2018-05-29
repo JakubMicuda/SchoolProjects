@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- EarlierForts -->
+<!-- Author: Geekob -->
+<!-- DateCreated: 5/19/2017 6:50:05 AM -->
+<GameData>
+	<Improvements>
+		<Update>
+			<Where ImprovementType="IMPROVEMENT_FORT"/>
+			<Set PrereqTech="TECH_MASONRY"/>
+		</Update>
+	</Improvements>
+	
+	<Units>
+		<Update>
+			<Where UnitType="UNIT_MILITARY_ENGINEER"/>
+			<Set PrereqTech="TECH_MASONRY" Cost="4294967295" BuildCharges="1" Description="Medieval era support unit. Can construct Roads, Forts, and Airstrip improvements."/>
+		</Update>
+	</Units>
+
+	<Unit_BuildingPrereqs>
+		<Delete Unit="UNIT_MILITARY_ENGINEER" PrereqBuilding="BUILDING_ARMORY"/>
+	</Unit_BuildingPrereqs>	
+</GameData>
